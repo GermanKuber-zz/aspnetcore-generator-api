@@ -47,7 +47,7 @@ namespace api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<string> Names(Range range)
+        public IEnumerable<string> Namess(Range range)
             => range.Of(Name.FullName);
 
         [HttpGet]
